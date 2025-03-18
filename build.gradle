@@ -50,7 +50,7 @@ dependencies {
     implementation "net.serenity-bdd:serenity-ensure:$rootProject.ext.serenityVersion"
     testImplementation "net.serenity-bdd:serenity-cucumber:$rootProject.ext.serenityCucumberVersion"
     implementation "net.serenity-bdd:serenity-screenplay-rest:$rootProject.ext.serenityVersion"
-    implementation 'com.github.javafaker:javafaker:1.0.2'
+    implementation 'net.datafaker:datafaker:2.4.2'
     implementation 'com.microsoft.sqlserver:mssql-jdbc:9.4.1.jre8'
     implementation 'org.mongodb:mongo-java-driver:3.12.10'
     testImplementation "org.junit.platform:junit-platform-launcher:1.8.2"

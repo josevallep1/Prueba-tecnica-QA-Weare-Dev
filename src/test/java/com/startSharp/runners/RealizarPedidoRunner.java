@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
-        features = "resources/features/realizar_pedido.feature",
+        features = "src/test/resources/features/realizar_pedido.feature",
         glue = "com/startSharp/stepDefinitions",
         snippets = CucumberOptions.SnippetType.CAMELCASE
 )

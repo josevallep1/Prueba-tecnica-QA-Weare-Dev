@@ -25,8 +25,6 @@ public class InicioDeSesion implements Task {
     @Override
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(
-                Enter.theValue(username).into(TXT_USUARIO),
-                Enter.theValue(password).into(TXT_CONTRASENIA),
                 Click.on(BTN_INICIAR_SESION)
         );
     }

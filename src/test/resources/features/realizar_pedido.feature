@@ -2,7 +2,7 @@
 
 Característica: Login en StartSharp
   Como usuario
-  Quiero iniciar sesión
+  Quiero iniciar sesion
   para acceder a las funcionalidades de StartSharp
 
   Antecedentes: Abrir sitio web
@@ -13,7 +13,6 @@ Característica: Login en StartSharp
   Escenario: Crear un nuevo pedido
     Cuando el usuario selecciona la opcion Nuevo Pedido
     Y selecciona el cliente aleatorio
-    Y ingresa la fecha mayor a la actual '1' mes
     Y selecciona el producto aleatorio
     Y selecciona la opcion Guardar
     Entonces vera la pagina de pedidos
